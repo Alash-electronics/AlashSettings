@@ -1,5 +1,9 @@
-// AlashSettings: настройки в EEPROM одной структурой. Счётчик запусков и яркость переживают выключение питания.
-// Откройте Serial Monitor (115200), перезагрузите плату несколько раз: счётчик растёт.
+// [ru] AlashSettings: настройки в EEPROM одной структурой. Счётчик запусков и яркость переживают выключение питания.
+//      Откройте Serial Monitor (115200), перезагрузите плату несколько раз: счётчик растёт.
+// [kk] AlashSettings: EEPROM-дағы баптаулар бір құрылыммен. Іске қосу есептегіші мен жарықтық қуат өшкенде сақталады.
+//      Serial Monitor-ды (115200) ашып, тақтаны бірнеше рет қайта жүктеңіз: есептегіш өседі.
+// [en] AlashSettings: settings in the EEPROM as one struct. The start counter and the brightness survive power-off.
+//      Open the Serial Monitor (115200), reboot the board a few times: the counter grows.
 #include <AlashSettings.h>
 
 struct Config {

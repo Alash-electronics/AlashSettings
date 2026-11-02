@@ -1,5 +1,9 @@
-// AlashSettings: автосохранение. Значение меняется постоянно (как положение ручки), а запись в EEPROM идёт только через 3 секунды
-// после последнего изменения, поэтому память не изнашивается. Крутите потенциометр на A0, в Serial Monitor (115200) видно записи.
+// [ru] AlashSettings: автосохранение. Значение меняется постоянно (как положение ручки), а запись в EEPROM идёт только через 3 секунды
+//      после последнего изменения, поэтому память не изнашивается. Крутите потенциометр на A0, в Serial Monitor (115200) видно записи.
+// [kk] AlashSettings: автосақтау. Мән үнемі өзгереді (тұтқа орны сияқты), ал EEPROM-ға жазу соңғы өзгерістен кейін тек 3 секундтан соң жүреді,
+//      сондықтан жад тозбайды. A0-дегі потенциометрді бұраңыз, Serial Monitor (115200) жазуларды көрсетеді.
+// [en] AlashSettings: autosave. The value changes constantly (like a knob position), but the write to the EEPROM happens only 3 seconds
+//      after the last change, so the memory does not wear out. Turn the potentiometer on A0, the Serial Monitor (115200) shows the writes.
 #include <AlashSettings.h>
 
 struct Config {

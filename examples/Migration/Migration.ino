@@ -1,5 +1,9 @@
-// AlashSettings: переход на новую версию структуры без потери данных. В версии 1 была только яркость, в версии 2 добавилась скорость.
-// Раскомментируйте строку VERSION 2, загрузите, и старая яркость сохранится, а скорость получит значение по умолчанию.
+// [ru] AlashSettings: переход на новую версию структуры без потери данных. В версии 1 была только яркость, в версии 2 добавилась скорость.
+//      Раскомментируйте строку VERSION 2, загрузите, и старая яркость сохранится, а скорость получит значение по умолчанию.
+// [kk] AlashSettings: деректерді жоғалтпай құрылымның жаңа нұсқасына көшу. 1 нұсқада тек жарықтық болды, 2 нұсқада жылдамдық қосылды.
+//      VERSION 2 жолын ашып, жүктеңіз: ескі жарықтық сақталады, ал жылдамдық әдепкі мән алады.
+// [en] AlashSettings: moving to a new struct version without losing data. Version 1 had only the brightness, version 2 added the speed.
+//      Uncomment the VERSION 2 line, upload, and the old brightness is kept while the speed gets the default value.
 #include <AlashSettings.h>
 
 #define VERSION 1                         // поменяйте на 2 и загрузите снова

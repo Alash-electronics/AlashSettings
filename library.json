@@ -1,6 +1,6 @@
 {
   "name": "AlashSettings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "EEPROM settings as one struct with checksum, versions, defaults, slot rotation, power-loss safety, migration and autosave",
   "keywords": "eeprom, settings, config, storage, preferences, checksum, wear leveling, migration, autosave",
   "repository": {
